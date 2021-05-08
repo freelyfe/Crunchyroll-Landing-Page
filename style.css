@@ -1,0 +1,59 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+
+  /*Good for responsive background
+  In the udemy tutorial, he got this code was from css-tricks!
+  Devs gotta learn to Google
+  */
+  background: url(ani.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  /* Tint  */
+  background-color: rgba(34, 34, 43, 0.5); /* Tint color */
+  background-blend-mode: multiply;
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+  /* All children in the container will be centered horizontally */
+  text-align: center;
+
+  /* Keeps container dead center
+  
+  https://betterprogramming.pub/how-to-center-things-with-style-in-css-dc87b7542689 */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-style {
+  background-color: #f78c25; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #e27625;;
+}
+
+
