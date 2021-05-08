@@ -2,6 +2,6 @@
 
 https://freelyfe.github.io/Crunchyroll-Landing-Page/
 
-No bootrap usedS
+No bootstrap used
 
 Links to actually crunchyroll site
